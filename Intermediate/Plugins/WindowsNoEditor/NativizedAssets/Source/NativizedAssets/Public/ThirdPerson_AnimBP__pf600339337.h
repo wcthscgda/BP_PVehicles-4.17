@@ -1,0 +1,105 @@
+﻿#pragma once
+#include "Blueprint/BlueprintSupport.h"
+#include "Animation/AnimClassData.h"
+#include "Runtime/Engine/Classes/Animation/AnimNode_StateMachine.h"
+#include "Runtime/AnimGraphRuntime/Public/AnimNodes/AnimNode_Root.h"
+#include "Runtime/Engine/Classes/Animation/AnimNode_SequencePlayer.h"
+#include "Runtime/AnimGraphRuntime/Public/AnimNodes/AnimNode_BlendListByBool.h"
+#include "Runtime/AnimGraphRuntime/Public/AnimNodes/AnimNode_BlendSpacePlayer.h"
+#include "Runtime/Engine/Classes/Animation/AnimNode_TransitionResult.h"
+#include "Runtime/Engine/Classes/Animation/AnimInstance.h"
+class ABP_Physic_Pawn_C__pf4061722237;
+class ACharacter;
+#include "ThirdPerson_AnimBP__pf600339337.generated.h"
+UCLASS(config=Engine, Blueprintable, BlueprintType, meta=(ReplaceConverted="/Game/Player/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C", OverrideNativeName="ThirdPerson_AnimBP_C"))
+class UThirdPerson_AnimBP_C__pf600339337 : public UAnimInstance
+{
+public:
+	GENERATED_BODY()
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_Root_6245415D43FCCBD818C7DD8DCFD4FBC8"))
+	FAnimNode_Root bpv__AnimGraphNode_Root_6245415D43FCCBD818C7DD8DCFD4FBC8__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_TransitionResult_175FFF54400CA0EC412B7083B0989D7E"))
+	FAnimNode_TransitionResult bpv__AnimGraphNode_TransitionResult_175FFF54400CA0EC412B7083B0989D7E__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_TransitionResult_EB26C4B44509776D1C9FA6991E047C32"))
+	FAnimNode_TransitionResult bpv__AnimGraphNode_TransitionResult_EB26C4B44509776D1C9FA6991E047C32__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_TransitionResult_F867B5374C7EFB9ED9010FA7431019DF"))
+	FAnimNode_TransitionResult bpv__AnimGraphNode_TransitionResult_F867B5374C7EFB9ED9010FA7431019DF__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_TransitionResult_EA982A1F4C5300ED41A13CAD26E05A19"))
+	FAnimNode_TransitionResult bpv__AnimGraphNode_TransitionResult_EA982A1F4C5300ED41A13CAD26E05A19__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_SequencePlayer_A0CF690444C363144EC28B95406387AA"))
+	FAnimNode_SequencePlayer bpv__AnimGraphNode_SequencePlayer_A0CF690444C363144EC28B95406387AA__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_StateResult_297D99FF44D47FD485B4F89D8011EE52"))
+	FAnimNode_Root bpv__AnimGraphNode_StateResult_297D99FF44D47FD485B4F89D8011EE52__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_SequencePlayer_7F3D9C864B693C7A42B6BE9C6E030836"))
+	FAnimNode_SequencePlayer bpv__AnimGraphNode_SequencePlayer_7F3D9C864B693C7A42B6BE9C6E030836__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_StateResult_1EBEFD1E44C9887ACE06AC8147E389E1"))
+	FAnimNode_Root bpv__AnimGraphNode_StateResult_1EBEFD1E44C9887ACE06AC8147E389E1__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_SequencePlayer_42CC18D944758414A1674994127217DE"))
+	FAnimNode_SequencePlayer bpv__AnimGraphNode_SequencePlayer_42CC18D944758414A1674994127217DE__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_StateResult_046F1C2548286DB7421A07BCB8B9830E"))
+	FAnimNode_Root bpv__AnimGraphNode_StateResult_046F1C2548286DB7421A07BCB8B9830E__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_BlendSpacePlayer_02DCCD344B15638E3A268A84A40F216E"))
+	FAnimNode_BlendSpacePlayer bpv__AnimGraphNode_BlendSpacePlayer_02DCCD344B15638E3A268A84A40F216E__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_StateResult_7618737141064086BB77CBB9D5CD2D59"))
+	FAnimNode_Root bpv__AnimGraphNode_StateResult_7618737141064086BB77CBB9D5CD2D59__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_StateMachine_4DC365404548467BD671AEB325E4717D"))
+	FAnimNode_StateMachine bpv__AnimGraphNode_StateMachine_4DC365404548467BD671AEB325E4717D__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_BlendListByBool_96F4137645E2C77F79977FA8EEA3456A"))
+	FAnimNode_BlendListByBool bpv__AnimGraphNode_BlendListByBool_96F4137645E2C77F79977FA8EEA3456A__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_SequencePlayer_25C921614966B67CB21961AE4E485C8D"))
+	FAnimNode_SequencePlayer bpv__AnimGraphNode_SequencePlayer_25C921614966B67CB21961AE4E485C8D__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_BlendListByBool_56A1B61641655F6CFCE63A8BA983DF59"))
+	FAnimNode_BlendListByBool bpv__AnimGraphNode_BlendListByBool_56A1B61641655F6CFCE63A8BA983DF59__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_SequencePlayer_03600F784F354A5E113C02B323407945"))
+	FAnimNode_SequencePlayer bpv__AnimGraphNode_SequencePlayer_03600F784F354A5E113C02B323407945__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_StateResult_71F8EBAA46364D59ADD1AABF427B967A"))
+	FAnimNode_Root bpv__AnimGraphNode_StateResult_71F8EBAA46364D59ADD1AABF427B967A__pf;
+	UPROPERTY(meta=(OverrideNativeName="AnimGraphNode_StateMachine_91B9FA944D12FBDB99454390EADB9D9D"))
+	FAnimNode_StateMachine bpv__AnimGraphNode_StateMachine_91B9FA944D12FBDB99454390EADB9D9D__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Is in Air?", Category="Default", OverrideNativeName="IsInAir?"))
+	bool bpv__IsInAirx__pfzy;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Speed", Category="Default", OverrideNativeName="Speed"))
+	float bpv__Speed__pf;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta=(DisplayName="Swiming", Category="Default", OverrideNativeName="Swiming"))
+	bool bpv__Swiming__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_Event_DeltaTimeX"))
+	float b0l__K2Node_Event_DeltaTimeX__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_AsBP_Physic_Pawn"))
+	ABP_Physic_Pawn_C__pf4061722237* b0l__K2Node_DynamicCast_AsBP_Physic_Pawn__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_bSuccess"))
+	bool b0l__K2Node_DynamicCast_bSuccess__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_AsCharacter"))
+	ACharacter* b0l__K2Node_DynamicCast_AsCharacter__pf;
+	UPROPERTY(Transient, DuplicateTransient, meta=(OverrideNativeName="K2Node_DynamicCast_bSuccess2"))
+	bool b0l__K2Node_DynamicCast_bSuccess2__pf;
+	UThirdPerson_AnimBP_C__pf600339337(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+	virtual void PostLoadSubobjects(FObjectInstancingGraph* OuterInstanceGraph) override;
+	static void __CustomDynamicClassInitialization(UDynamicClass* InDynamicClass);
+	static void __StaticDependenciesAssets(TArray<FBlueprintDependencyData>& AssetsToLoad);
+	static void __StaticDependencies_DirectlyUsedAssets(TArray<FBlueprintDependencyData>& AssetsToLoad);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_0(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_1(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_2(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_3(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_4(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_5(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_6(int32 bpp__EntryPoint__pf);
+	void bpf__ExecuteUbergraph_ThirdPerson_AnimBP__pf_7(int32 bpp__EntryPoint__pf);
+	UFUNCTION(meta=(ToolTip="Executed when the Animation is updated", CppFromBpEvent, OverrideNativeName="BlueprintUpdateAnimation"))
+	void bpf__BlueprintUpdateAnimation__pf(float bpp__DeltaTimeX__pf);
+	UFUNCTION(meta=(OverrideNativeName="EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_BlendListByBool_56A1B61641655F6CFCE63A8BA983DF59"))
+	virtual void bpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_BlendListByBool_56A1B61641655F6CFCE63A8BA983DF59__pf();
+	UFUNCTION(meta=(OverrideNativeName="EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_BlendListByBool_96F4137645E2C77F79977FA8EEA3456A"))
+	virtual void bpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_BlendListByBool_96F4137645E2C77F79977FA8EEA3456A__pf();
+	UFUNCTION(meta=(OverrideNativeName="EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_BlendSpacePlayer_02DCCD344B15638E3A268A84A40F216E"))
+	virtual void bpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_BlendSpacePlayer_02DCCD344B15638E3A268A84A40F216E__pf();
+	UFUNCTION(meta=(OverrideNativeName="EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_175FFF54400CA0EC412B7083B0989D7E"))
+	virtual void bpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_175FFF54400CA0EC412B7083B0989D7E__pf();
+	UFUNCTION(meta=(OverrideNativeName="EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_EA982A1F4C5300ED41A13CAD26E05A19"))
+	virtual void bpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_EA982A1F4C5300ED41A13CAD26E05A19__pf();
+	UFUNCTION(meta=(OverrideNativeName="EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_EB26C4B44509776D1C9FA6991E047C32"))
+	virtual void bpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_EB26C4B44509776D1C9FA6991E047C32__pf();
+	UFUNCTION(meta=(OverrideNativeName="EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_F867B5374C7EFB9ED9010FA7431019DF"))
+	virtual void bpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ThirdPerson_AnimBP_AnimGraphNode_TransitionResult_F867B5374C7EFB9ED9010FA7431019DF__pf();
+public:
+};

@@ -1,0 +1,232 @@
+{
+	"manifestChunkId": -1,
+	"pluginName": "NativizedAssets",
+	"outputDir": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets",
+	"moduleDependencies": [
+		"Package'/Script/CoreUObject'",
+		"Package'/Script/Engine'",
+		"Package'/Script/InputCore'",
+		"Package'/Script/UMG'",
+		"Package'/Script/ClothingSystemRuntime'",
+		"Package'/Script/PhysXVehicles'",
+		"Package'/Script/AnimGraphRuntime'",
+		"Package'/Script/SlateCore'",
+		"Package'/Script/MovieScene'",
+		"Package'/Script/MovieSceneTracks'",
+		"Package'/Script/AIModule'",
+		"Package'/Script/GameplayTasks'",
+		"Package'/Script/Slate'",
+		"Package'/Script/ClothingSystemRuntimeInterface'"
+	],
+	"convertedAssets":
+	{
+		"/Game/Vehicles/00_Master_Vehicle/Structs/Wheel_Structure.Wheel_Structure":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedStruct'",
+			"targetObjPath": "/Game/Vehicles/00_Master_Vehicle/Structs/Wheel_Structure.Wheel_Structure",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Wheel_Structure__pf863842189.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Wheel_Structure__pf863842189.cpp"
+		},
+		"/Game/Vehicles/00_Master_Vehicle/Structs/Gear_Structure.Gear_Structure":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedStruct'",
+			"targetObjPath": "/Game/Vehicles/00_Master_Vehicle/Structs/Gear_Structure.Gear_Structure",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Gear_Structure__pf863842189.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Gear_Structure__pf863842189.cpp"
+		},
+		"/Game/Player/BP_Controller.BP_Controller_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Player/BP_Controller.BP_Controller_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Controller__pf4061722237.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Controller__pf4061722237.cpp"
+		},
+		"/Game/Player/BP_Physic_Pawn.BP_Physic_Pawn_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Player/BP_Physic_Pawn.BP_Physic_Pawn_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Physic_Pawn__pf4061722237.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Physic_Pawn__pf4061722237.cpp"
+		},
+		"/Game/Player/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Player/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/ThirdPerson_AnimBP__pf600339337.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/ThirdPerson_AnimBP__pf600339337.cpp"
+		},
+		"/Game/Interactable_Master.Interactable_Master_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Interactable_Master.Interactable_Master_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Interactable_Master__pf1010915279.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Interactable_Master__pf1010915279.cpp"
+		},
+		"/Game/Vehicles/00_Master_Vehicle/BP_Master_Vehicle.BP_Master_Vehicle_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicles/00_Master_Vehicle/BP_Master_Vehicle.BP_Master_Vehicle_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Master_Vehicle__pf3373537038.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Master_Vehicle__pf3373537038.cpp"
+		},
+		"/Game/Vehicles/Camaro/Anims/Camaro_AnimBlueprint.Camaro_AnimBlueprint_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Vehicles/Camaro/Anims/Camaro_AnimBlueprint.Camaro_AnimBlueprint_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Camaro_AnimBlueprint__pf2913349635.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Camaro_AnimBlueprint__pf2913349635.cpp"
+		},
+		"/Game/Vehicles/Camaro/Anims/Camaro_Driver_AnimBlueprint.Camaro_Driver_AnimBlueprint_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Vehicles/Camaro/Anims/Camaro_Driver_AnimBlueprint.Camaro_Driver_AnimBlueprint_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Camaro_Driver_AnimBlueprint__pf2913349635.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Camaro_Driver_AnimBlueprint__pf2913349635.cpp"
+		},
+		"/Game/Environment/BP_Water_Volume.BP_Water_Volume_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Environment/BP_Water_Volume.BP_Water_Volume_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Water_Volume__pf3286898353.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Water_Volume__pf3286898353.cpp"
+		},
+		"/Game/Vehicle_Save.Vehicle_Save_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicle_Save.Vehicle_Save_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Vehicle_Save__pf1010915279.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Vehicle_Save__pf1010915279.cpp"
+		},
+		"/Game/UMG/Vehicle_Debug.Vehicle_Debug_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Vehicle_Debug.Vehicle_Debug_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Vehicle_Debug__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Vehicle_Debug__pf1863595755.cpp"
+		},
+		"/Game/UMG/Pop-up.Pop-up_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Pop-up.Pop-up_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Popxup__pfG1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Popxup__pfG1863595755.cpp"
+		},
+		"/Game/UMG/Pause_Menu.Pause_Menu_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Pause_Menu.Pause_Menu_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Pause_Menu__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Pause_Menu__pf1863595755.cpp"
+		},
+		"/Game/UMG/Options_Menu.Options_Menu_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Options_Menu.Options_Menu_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Options_Menu__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Options_Menu__pf1863595755.cpp"
+		},
+		"/Game/UMG/Tooltip.Tooltip_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Tooltip.Tooltip_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Tooltip__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Tooltip__pf1863595755.cpp"
+		},
+		"/Game/UMG/Player_Hud.Player_HUD_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Player_Hud.Player_HUD_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Player_Hud__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Player_Hud__pf1863595755.cpp"
+		},
+		"/Game/Vehicles/Trailer/BP_Trailer.BP_Trailer_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicles/Trailer/BP_Trailer.BP_Trailer_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Trailer__pf177726655.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Trailer__pf177726655.cpp"
+		},
+		"/Game/Vehicles/Test/BP_Test.BP_Test_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicles/Test/BP_Test.BP_Test_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Test__pf2481680385.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Test__pf2481680385.cpp"
+		},
+		"/Game/Vehicles/00_Master_Vehicle/BP_Passenger.BP_Passenger_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicles/00_Master_Vehicle/BP_Passenger.BP_Passenger_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Passenger__pf3373537038.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Passenger__pf3373537038.cpp"
+		},
+		"/Game/Vehicles/Camaro/BP_Camaro.BP_Camaro_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicles/Camaro/BP_Camaro.BP_Camaro_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Camaro__pf4077563176.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Camaro__pf4077563176.cpp"
+		},
+		"/Game/Environment/BP_GasStation.BP_GasStation_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Environment/BP_GasStation.BP_GasStation_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_GasStation__pf3286898353.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_GasStation__pf3286898353.cpp"
+		},
+		"/Game/Environment/Environment_BP.Environment_BP_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Environment/Environment_BP.Environment_BP_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Environment_BP__pf3286898353.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Environment_BP__pf3286898353.cpp"
+		},
+		"/Game/UMG/Main_Menu.Main_Menu_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Main_Menu.Main_Menu_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Main_Menu__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Main_Menu__pf1863595755.cpp"
+		},
+		"/Game/UMG/About_Menu.About_Menu_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/About_Menu.About_Menu_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/About_Menu__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/About_Menu__pf1863595755.cpp"
+		},
+		"/Game/UMG/Loading_Screen.Loading_Screen_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/UMG/Loading_Screen.Loading_Screen_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/Loading_Screen__pf1863595755.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/Loading_Screen__pf1863595755.cpp"
+		},
+		"/Game/Vehicles/BP_Vehicle_Waypoint.BP_Vehicle_Waypoint_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicles/BP_Vehicle_Waypoint.BP_Vehicle_Waypoint_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_Vehicle_Waypoint__pf1689870207.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_Vehicle_Waypoint__pf1689870207.cpp"
+		},
+		"/Game/Vehicles/BP_AI_Race.BP_AI_Race_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Vehicles/BP_AI_Race.BP_AI_Race_C",
+			"generatedHeaderPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Public/BP_AI_Race__pf1689870207.h",
+			"generatedCppPath": "C:\\Unreal Projects\\BP_PVehicles 4.17\\Intermediate\\Plugins\\WindowsNoEditor/NativizedAssets/Source/NativizedAssets/Private/BP_AI_Race__pf1689870207.cpp"
+		}
+	},
+	"unconvertedDependencies":
+	{
+	},
+	"nativizationOptions":
+	{
+		"platformName": "WindowsNoEditor",
+		"serverOnlyPlatform": false,
+		"clientOnlyPlatform": false,
+		"excludedModules": [],
+		"excludedAssets": [],
+		"excludedFolderPaths": []
+	}
+}
